@@ -1,0 +1,593 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin: 10px 0px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.tilmelding-succes-farve {
+  display: block;
+  width: 50%;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #d6feff;
+}
+.tilmeldings-tak {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.form {
+  width: 100%;
+}
+.tilmeldings-form {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tekst-under-form {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.send-knap {
+  margin-top: 16px;
+  border-radius: 5px;
+  line-height: 6px;
+}
+@media (max-width: 991px) {
+  .form {
+    width: 100%;
+  }
+  .form-tekst {
+    border-radius: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .tilmelding-succes-farve {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .tilmeldings-form {
+    width: 95%;
+  }
+  .tekst-under-form {
+    width: 90%;
+    text-align: justify;
+  }
+  .form-label {
+    padding-left: 6px;
+  }
+  .form-tekst {
+    display: block;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 7px;
+    border-radius: 5px;
+  }
+  .send-knap {
+    display: block;
+    height: 31px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .baggrund-ill {
+    background-image: url('../images/1Borneteaterlejr.jpg');
+    background-size: cover;
+  }
+  .overskrift {
+    color: #db1880;
+  }
+  .overskrift.pink {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: black 1px 1px 6px;
+  }
+  .video.streg {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .form-send-tilmelding {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    background-color: #3698d1;
+    font-size: 20px;
+  }
+  .tekst.alm-tekst {
+    display: block;
+    width: 95%;
+    margin: 6px auto;
+  }
+  .tekst.alm-tekst.se-flere-billeder {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .tekst.overskrift-tilmelding {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    background-color: #3698d1;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .video-tilmelding {
+    display: block;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .billedserie {
+    height: 250px;
+  }
+  .container-rod {
+    background-color: black;
+  }
+  .under-overskrift {
+    margin-top: 0px;
+    margin-bottom: 13px;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: black 1px 1px 6px;
+  }
+}
+@media (max-width: 479px) {
+  h1 {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 38px;
+    line-height: 43px;
+    text-align: center;
+  }
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    color: white;
+    text-align: center;
+    text-shadow: black 1px 1px 6px, black 1px 1px 0px;
+  }
+  p {
+    text-align: center;
+  }
+  .tekst-under-form {
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .form-label {
+    padding-left: 6px;
+  }
+  .form-tekst {
+    display: block;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 6px;
+  }
+  .baggrund-ill {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #00072e;
+    background-image: url('../images/1Borneteaterlejr.jpg');
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .overskrift {
+    color: #fbff00;
+    font-size: 30px;
+    text-align: center;
+  }
+  .overskrift.pink {
+    margin-top: -3px;
+    margin-bottom: 31px;
+    padding-top: 0px;
+    color: white;
+    text-shadow: black 1px 1px 6px, black 1px 1px 0px;
+  }
+  .video {
+    position: static;
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    width: 80%;
+    height: 100px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    float: none;
+    border: 0px solid #242424;
+    background-color: rgba(23, 23, 23, 0);
+  }
+  .video.streg {
+    width: auto;
+    padding-right: 25px;
+    border-width: 4px;
+    border-color: white;
+  }
+  .film {
+    height: 200px;
+  }
+  .form-send-tilmelding {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    background-color: #3698d1;
+    box-shadow: none;
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .tekst {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .tekst.alm-tekst {
+    display: block;
+    width: 95%;
+    margin: 6px auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: left;
+  }
+  .tekst.alm-tekst.se-flere-billeder {
+    font-size: 13px;
+    text-align: center;
+  }
+  .tekst.overskrift-tilmelding {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding-bottom: 0px;
+    background-color: #3698d1;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .video-tilmelding {
+    display: block;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .billedserie {
+    height: 160px;
+    background-color: #00072e;
+  }
+  .billed-cirkler {
+    height: 26px;
+    box-shadow: none;
+    font-size: 8px;
+    line-height: 8px;
+    text-align: center;
+  }
+  .billed-pil-tv {
+    width: 40px;
+    font-weight: 400;
+    text-shadow: black 1px 1px 6px;
+  }
+  .pil-th {
+    text-shadow: black 1px 1px 6px;
+  }
+  .pil-tv {
+    text-shadow: black 1px 1px 6px;
+  }
+  .container-rod {
+    border-top: 5px none white;
+    background-color: #000f17;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .container-rod.hvid-kant {
+    border-top-style: solid;
+    border-top-width: 10px;
+  }
+  .under-overskrift {
+    margin-top: 0px;
+    margin-bottom: 28px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .slide2 {
+    width: 500px;
+    max-width: 400px;
+    margin-top: -59px;
+  }
+  .slider {
+    height: 200px;
+  }
+  .brev-normal-bold {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  .tekst-bold-center {
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .overskrift-b {
+    font-size: 26px;
+    line-height: 23px;
+  }
+  .overskr {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .tekst-left {
+    text-align: left;
+  }
+  .tekst-normal-bold-left {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: 700;
+  }
+  .tekst-normal-left {
+    margin-bottom: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .tekst-normal-left.center {
+    text-align: left;
+  }
+  .tekst-normal-left.bank-oplysn {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .underskore {
+    text-decoration: underline;
+  }
+  .teaterlejr-overskrift {
+    font-size: 31px;
+  }
+  .regular {
+    font-weight: 400;
+  }
+  .red {
+    color: #f2052c;
+  }
+  .slideimg4 {
+    margin-top: -52px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .slideimg5 {
+    width: 500px;
+    height: auto;
+    max-width: 400px;
+    margin-top: -23px;
+    margin-bottom: 0px;
+    margin-left: -32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  .slideimg6 {
+    margin-top: -111px;
+  }
+  .slideimg7 {
+    width: 490px;
+    height: auto;
+    max-width: 359px;
+    margin: -80px 0px 0px;
+  }
+  .slideimg7.slideimg8 {
+    max-width: 325px;
+    margin-top: -31px;
+  }
+  .slideimg10 {
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
+  .image11 {
+    width: 332px;
+    max-width: 500px;
+    margin-top: -47px;
+    margin-left: 1px;
+  }
+  .image12 {
+    width: 430px;
+    max-width: 600px;
+    margin-top: -30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .image13 {
+    width: 357px;
+    max-width: 500px;
+    margin-top: -12px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 14px;
+    padding-left: 0px;
+  }
+  .image14 {
+    width: 100%;
+    margin-top: 1px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .image15 {
+    width: 400px;
+    max-width: 500px;
+    margin-top: -19px;
+    margin-left: 0px;
+    padding-right: 61px;
+    padding-left: 0px;
+  }
+  .image16 {
+    margin-top: 0px;
+  }
+  .image19 {
+    width: 464px;
+    max-width: 500px;
+    margin-left: 0px;
+  }
+  .luk {
+    position: static;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    overflow-x: visible;
+    overflow-y: visible;
+    float: right;
+    clear: none;
+  }
+  .luk-ikon {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+  }
+  .billede4 {
+    margin-top: -70px;
+  }
+  .billede5 {
+    margin-top: -49px;
+  }
+  .billede9 {
+    margin-top: -76px;
+  }
+  .billede11 {
+    margin-top: -35px;
+  }
+  .billede12 {
+    margin-top: -12px;
+  }
+  .billede13 {
+    margin-top: -22px;
+  }
+  .billede14 {
+    margin-top: 0px;
+  }
+  .billede15 {
+    margin-top: -13px;
+  }
+  .billede16 {
+    margin-top: -1px;
+  }
+  .billede17 {
+    margin-top: -19px;
+  }
+  .billede18 {
+    margin-top: -8px;
+  }
+  .billede20 {
+    width: auto;
+    height: auto;
+    margin-top: -36px;
+  }
+  .bredden {
+    width: auto;
+    max-width: 479px;
+    min-width: 300px;
+    float: none;
+  }
+}
